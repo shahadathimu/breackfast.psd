@@ -1,0 +1,433 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    /* border: 1px solid white; */
+}
+body{
+	font-family: 'Uchen', serif;
+	font-size: 14px;
+	line-height: 24px;
+	background-color: #17171E;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Uchen', serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+/* *header code start* */
+
+.header{
+	width: 100%;
+	background-color: #17171E;
+	
+}
+
+.header{
+	background-image: linear-gradient(rgba(10, 0, 0, 0.80),rgba(0, 0, 0, .80)), url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.header .navbar-wrapper {
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+}
+
+.logo {
+    width: 80px;
+    margin-top: 15px;
+}
+
+.navbar .nav-bg-light{
+	width: 100%;
+}
+
+.navbar .nav-item{
+	margin-top: 15px;
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color: #FE9000;
+}
+
+.inner-banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.inner-banner .plate-img{
+	width: 90%;
+}
+
+.inner-text {
+    width: 100%;
+    margin-top: 30%;
+    margin-left: 50px;
+}
+
+.inner-text .inner-text-h1 {
+    font-size: 60px;
+    line-height: 55px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: -15px;
+    color: #FE9000;
+}
+
+.inner-text .inner-text-p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.inner-text .btn {
+    background-color: #FE9000;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+}
+
+.inner-text .btn:hover{
+	background-color: #ffffff;
+    color: #000000;
+}
+
+/* *header code end* */
+
+
+/* *About-us code start here* */
+
+.about-us{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.about-us .aboutimg {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 30px;
+}
+
+.about-us .inner-about-text{
+    padding: 55px;
+    margin-top: 100px;
+	margin-left: 20px;
+}
+
+.about-us .inner-about-text h1 {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 65px;
+    font-weight: bolder;
+}
+.about-us .inner-about-text p{
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 1px;
+    line-height: 25px;
+    color: #fff;
+}
+
+
+/* *About-us code end here* */
+
+/* *Food Quality code start here* */
+
+.our-food-quality{
+	width: 100%;
+	margin: 80px 0px;
+}
+
+.our-food-quality {
+    background-image: url(../images/aboutus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    overflow: hidden;
+    padding: 765px 0px;
+}
+
+.our-food-quality .our-food-quality-text {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: -150px;
+    left: 150px;
+}
+
+.inner-food-text-h1{
+	color: #ffffff;
+    font-size: 60px;
+    font-weight: bolder;
+    top: 0px;
+    display: inline-block;
+}
+
+.inner-food-text-p {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #fff;
+    padding-inline-end: 60%;
+}
+
+
+/* *Food Quality code end here* */
+
+/* *Food Gallery code start here* */
+
+.food-gallery{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.food-gallery .food-gallery-h1 {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    word-spacing: -10px;
+    margin: 20px 0px;
+}
+
+.food-gallery .food-gellary-img{
+    width: 100%;
+    margin: 20px 20px;
+    border: 1px solid #FE9000;
+}
+
+/* *Food Gallery code end here* */
+
+
+/* *Enjoy food code start here* */
+
+.enjoy-food{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.enjoy-food {
+    background-image: url(../images/enjoyfood.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    overflow: hidden;
+    position: absolute;
+    padding: 230px 0px;
+}
+
+.enjoy-food .col-md-12{
+    margin: 0px;
+    padding: 0px;
+}
+
+.inner-enjoy {
+    border: 10px solid #FE9000;
+    width: 500px;
+    padding: 25px;
+    margin-left: 30%;
+}
+
+.inner-enjoy .inner-enjoy-h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.inner-enjoy .inner-enjoy-p {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+/* *Enjoy food code end here* */
+
+
+/* *Our menu code start here* */
+
+.our-menu {
+    width: 100%;
+    padding: 80px 0px;
+    margin-top: 60%;
+}
+
+.our-menu .our-menu-h1{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    word-spacing: -10px;
+    margin: 20px 0px;
+}
+
+.our-menu .food-gellary-img{
+    width: 100%;
+    margin: 20px 20px;
+    border: 1px solid #FE9000;
+}
+
+.our-menu .menu-text-h1 {
+    width: 100%;
+    color: #FE9000;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 10px 25px;
+}
+
+.our-menu .menu-text-p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.our-menu .menu-text-h3 {
+    width: 100%;
+    color: #FE9000;
+    font-size: 30px;
+    font-weight: bolder;
+    word-spacing: -10px;
+    margin: 20px 30px;
+}
+
+/* *Our menu code end here* */
+
+/* *enjoy best meal code start here* */
+
+.enjoy-food-meal{
+    width: 100%;
+    padding: 80px 0px;
+    margin-top: 0px;
+}
+
+.enjoy-food-meal{
+    background-image: url(../images/enjoymeal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    overflow: hidden;
+    padding: 215px 0px;
+    margin-top: 50px;
+}
+
+.enjoy-meal{
+    width: 100%;
+    margin-left: 50%;
+}
+
+.enjoy-meal .enjoy-meal-h3 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.enjoy-meal .enjoy-meal-p {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #fff;
+}
+
+/* *enjoy best meal code end here* */
+
+/* *Footer code start here* */
+
+.footer{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.footer .col-md-12{
+    text-align: center;
+}
+
+.footer .footer-img{
+    margin-top: -50px;
+}
+
+.footer .footer-menu{
+    width: 100%;
+}
+
+.footer .footer-menu li{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.footer .footer-menu li a {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.social-icon{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social-icon li{
+    display: inline-block;
+    
+}
+
+.social-icon li a {
+    display: block;
+    background-color: #fff;
+    margin: 0px 10px;
+    width: 60px;
+    height: 60px;
+    line-height: 70px;
+    border-radius: 50%;
+    font-size: 26px;
+    color: #000000;
+    transition: 1s;
+
+}
+
+/* .social-icon li a i{
+    color: #000;
+}
+ */
+.social-icon li a:hover{
+    background: #08c;
+    color: #fff;
+    border: 1px solid #08c;
+}
+
+/* *Footer code end here* */
+

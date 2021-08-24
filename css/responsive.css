@@ -1,0 +1,779 @@
+/* Reaponsive media queries start */
+
+/***** Most of the smart phone
+   Resulation: 320px to 480px; 
+*****/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+   /* css code start */
+   
+   /* header css start */
+   
+   .header{
+      padding: 0px;
+   }
+
+   .logo{
+      width: 65px;
+   }
+   
+   .navbar-light .navbar-toggler{
+      border: 2px solid #ffffff;
+      color: #ffffff;
+   }
+
+   .inner-banner{
+      padding: 40px 0px;
+   }
+   
+   .inner-text{
+      width: 100%;
+      margin-top: 0%;
+      margin-left: 35px;
+      padding: 30px 0px;
+   }
+   
+   .inner-text .inner-text-h1{
+      font-size: 40px;
+      line-height: 50px;
+   }
+   
+   .inner-text .inner-text-p{
+      font-size: 13px;
+      line-height: 18px;
+      text-align: justify;
+   }
+   
+   .inner-text .btn {
+      background-color: #FE9000;
+      color: #000000;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 5px 10px 5px 10px;
+   }
+   
+   /* header css end */
+   
+   /* about css start */
+   
+   .about-us{
+      width: 100%;
+      padding: 25px 0px;
+   }
+   
+   .about-us .aboutimg{
+      width: 65%;
+      margin-left: 65px;
+   }
+   
+   .about-us .inner-about-text{
+      padding: 50px;
+      margin-top: 0px;
+   }
+   
+   .about-us .inner-about-text h1{
+      font-size: 50px;
+   }
+   
+   .about-us .inner-about-text p{
+      font-size: 12px;
+      letter-spacing: 0px;
+      line-height: 18px;
+   }
+   
+   /* about css end */
+   
+   /* Food-quality css start  */
+   
+   .our-food-quality{
+      width: 100%;
+      margin: 40px 0px;
+   }
+   
+   .our-food-quality{
+      padding: 220px 0px;
+   }
+   
+   .our-food-quality .our-food-quality-text{
+      position: relative;
+      top: -55px;
+      left: 18px;
+   }
+   
+   
+   .inner-food-text-h1{
+      font-size: 20px;
+   }
+   
+   .inner-food-text-p{
+      font-size: 12px;
+      letter-spacing: 0px;
+      line-height: 15px;
+   }
+   
+   /* Food-quality css end  */
+   
+   /* gallery css start */
+   
+   .food-gallery{
+      padding: 40px 0px;
+   }
+   
+   .food-gallery .food-gallery-h1{
+      font-size: 25px;
+      margin: 10px 0px;
+   }
+   
+   .food-gallery .food-gellary-img{
+      margin: 12px 50px;
+      width: 80%;
+   }
+   
+   /* gallery css end */
+   
+   
+   /* Enjoy food css start */
+   
+   .enjoy-food{
+      width: 100%;
+      padding: 40px 0px;
+   }
+   
+   .inner-enjoy{
+      width: 225px;
+      padding: 5px;
+      margin-left: 25%;
+      border: 3px solid #FE9000;
+   }
+   
+   .inner-enjoy .inner-enjoy-h3{
+      font-size: 20px;
+      margin-top: 10px;
+      letter-spacing: 1px;
+   }
+   
+   .inner-enjoy .inner-enjoy-p{
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 400;
+      letter-spacing: 1px;
+   }
+   
+   /* Enjoy food css end */
+   
+   /* our menu css start */
+   
+   .our-menu {
+      width: 100%;
+      padding: 30px 0px;
+      margin-top: 80%;
+   }
+   
+   .our-menu .our-menu-h1{
+      font-size: 35px;
+   }
+   
+   .our-menu .food-gellary-img{
+      margin: 15px 15px;
+   }
+   
+   .our-menu .menu-text-h1{
+      font-size: 20px;
+      font-weight: 700;
+      margin: 10px 25px;
+   }
+   
+   .our-menu .menu-text-p{
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      line-height: 20px;
+   }
+   
+   .our-menu .menu-text-h3{
+      font-size: 20px;
+      word-spacing: -8px;
+      margin: 15px 25px;
+   }
+   
+   /* our menu css end */
+   
+   /* Enjoy food meal css start  */
+   
+   .enjoy-food-meal{
+      padding: 55px 0px;
+   }
+   
+   .enjoy-meal .enjoy-meal-h3{
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+   }
+   
+   .enjoy-meal .enjoy-meal-p{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+   }
+   
+   .enjoy-meal{
+      width: 100%;
+      margin-left: 46%;
+   }
+   
+   /* Enjoy food meal css end  */
+   
+   /* footer css start */
+   
+   .footer{
+      padding: 40px 0px;
+   }
+   
+   .footer .footer-img{
+      width: 50%;
+      margin-top: 0px;
+   }
+   
+   .footer .footer-menu li{
+      margin-top: 20px;
+   }
+   
+   .footer .footer-menu li a{
+      font-size: 12px;
+      padding: 0px;
+      margin: 10px;
+   }
+   
+   .social-icon{
+      margin-top: 20px;
+   }
+   
+   .social-icon li a{
+      font-size: 15px;
+      margin: 0px 10px;
+      width: 45px;
+      height: 45px;
+      line-height: 50px;
+   }
+   
+   /* footer css end */
+   
+   
+   /* css code end */    
+   }
+   
+   
+   
+   /***** Most of the low resulation smart phone , tab
+      Resulation: 481px to 767px; 
+   *****/
+   
+   @media (min-width: 481px) and (max-width: 767px) {
+   
+   /* css code start */
+   
+   /* header css start */
+   
+   .header{
+      padding: 0px;
+   }
+   
+  .navbar-light .navbar-toggler{
+      border: 2px solid #ffffff;
+      color: #ffffff;
+   }
+   
+   .inner-banner{
+      padding: 40px 0px;
+   }
+   
+   .inner-text{
+      width: 100%;
+      margin-top: 0%;
+      margin-left: 35px;
+      padding: 30px 0px;
+   }
+   
+   .inner-text .inner-text-h1{
+      font-size: 45px;
+      line-height: 50px;
+   }
+   
+   .inner-text .inner-text-p{ 
+      font-size: 17px;
+      line-height: 25px;
+      text-align: justify;
+   }
+   
+   .inner-text .btn {
+      background-color: #FE9000;
+      color: #000000;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 5px 10px 5px 10px;
+   }
+   
+   /* header css end */
+   
+   /* about css start */
+   
+   .about-us{
+      width: 100%;
+      padding: 40px 0px;
+   }
+   
+   .about-us .aboutimg{
+      width: 65%;
+      margin-left: 80px;
+   }
+   
+   .about-us .inner-about-text{
+      padding: 0px;
+      margin-top: 30px;
+      text-align: center;
+   }
+   
+   .about-us .inner-about-text h1{
+      font-size: 40px;
+   }
+   
+   .about-us .inner-about-text p{
+      font-size: 14px;
+      letter-spacing: 0px;
+      line-height: 20px;
+   }
+   
+   /* about css end */
+   
+   /* Food-quality css start  */
+   
+   .our-food-quality{
+      width: 100%;
+      margin: 40px 0px;
+   }
+   
+   .our-food-quality{
+      padding: 355px 0px;
+   }
+   
+   .our-food-quality .our-food-quality-text{
+      position: relative;
+      top: -80px;
+      left: 0px;
+   }
+   
+   
+   .inner-food-text-h1{
+      font-size: 30px;
+   }
+   
+   .inner-food-text-p{
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 22px;
+      font-weight: 400;
+   }
+   
+   
+   /* Food-quality css end  */
+   
+   /* gallery css start */
+   
+.food-gallery{
+   padding: 60px 0px;
+}
+   
+.food-gallery .food-gallery-h1{
+   font-size: 45px;
+   margin: 25px 0px;
+}
+   
+.food-gallery .food-gellary-img{
+   margin: 25px 50px;
+   width: 90%
+}
+   
+/* gallery css end */
+   
+   
+/* Enjoy food css start */
+   
+.enjoy-food{
+   width: 100%;
+   padding: 70px 0px;
+}
+   
+.inner-enjoy{
+   width: 330px;
+   padding: 10px;
+   margin-left: 18%;
+   border: 8px solid #FE9000;
+}
+   
+.inner-enjoy .inner-enjoy-h3{
+   font-size: 30px;
+   margin-top: 10px;
+   letter-spacing: 1px;
+}
+   
+.inner-enjoy .inner-enjoy-p{
+   font-size: 15px;
+   line-height: 20px;
+   font-weight: 400;
+   letter-spacing: 1px;
+}
+   
+/* Enjoy food css end */
+   
+/* our menu css start */
+   
+.our-menu {
+   width: 100%;
+   padding: 30px 0px;
+   margin-top: 60%;
+}
+   
+.our-menu .our-menu-h1{
+   font-size: 50px;
+}
+   
+.our-menu .food-gellary-img{
+   margin: 15px 15px;
+}
+   
+.our-menu .menu-text-h1{
+   font-size: 30px;
+   font-weight: 700;
+   margin: 10px 25px;
+}
+   
+.our-menu .menu-text-p{
+   font-size: 16px;
+   font-weight: 400;
+   letter-spacing: 0px;
+   line-height: 20px;
+}
+   
+.our-menu .menu-text-h3{
+   font-size: 25px;
+   word-spacing: -8px;
+   margin: 15px 25px;
+}
+   
+/* our menu css end */
+   
+/* Enjoy food meal css start  */
+   
+.enjoy-food-meal{
+   padding: 120px 0px;
+}
+   
+.enjoy-meal .enjoy-meal-h3{
+   font-size: 25px;
+   font-weight: 700;
+   margin-bottom: 15px;
+}
+   
+.enjoy-meal .enjoy-meal-p{
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 20px;
+}
+   
+.enjoy-meal{
+   width: 100%;
+   margin-left: 48%;
+}
+
+/* Enjoy food meal css end  */
+   
+/* footer css start */
+   
+.footer{
+   padding: 40px 0px;
+}
+   
+.footer .footer-img{
+   width: 50%;
+   margin-top: 0px;
+}
+   
+.footer .footer-menu li{
+   margin-top: 20px;
+}
+   
+.footer .footer-menu li a{
+   font-size: 12px;
+   padding: 10px;
+}
+   
+.social-icon{
+   margin-top: 20px;
+}
+   
+.social-icon li a{
+   font-size: 15px;
+   margin: 0px 10px;
+   width: 45px;
+   height: 45px;
+   line-height: 50px;
+}
+   
+/* footer css end */
+   
+   
+/* css code end */    
+}
+   
+   
+/***** Most of the tablet, ipad and notebook
+   Resulation: 768px to 1020px; 
+*****/
+   
+@media (min-width: 768px) and (max-width: 1200px) {
+   
+/* css code start */
+
+/* header css start */
+
+.navbar-light .navbar-toggler{
+   border: 2px solid #ffffff;
+   color: #ffffff;
+}
+
+.logo{
+   width: 86px;
+   margin-top: 15px;
+}
+
+.inner-banner .plate-img{
+   width: 100%;
+}
+
+.inner-banner{
+      padding: 40px 0px;
+   }
+   
+.inner-text{
+   width: 100%;
+   margin-top: 0%;
+   margin-left: 20px;
+   padding: 30px 0px;
+}
+   
+.inner-text .inner-text-h1{
+   font-size: 45px;
+   line-height: 50px;
+}
+   
+.inner-text .inner-text-p{ 
+   font-size: 18px;
+   line-height: 28px;
+   text-align: justify;
+}
+   
+.inner-text .btn {
+  background-color: #FE9000;
+   color: #000000;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px 15px 10px 15px;
+}
+
+/* header css end */
+
+/* about css start */
+   
+.about-us{
+   width: 100%;
+   padding: 70px 0px;
+}
+   
+.about-us .aboutimg{
+   width: 100%;
+   margin-left: 0px;
+}
+   
+.about-us .inner-about-text{
+   padding: 0px;
+   margin-top: 100px;
+}
+   
+.about-us .inner-about-text h1{
+   font-size: 45px;
+}
+   
+.about-us .inner-about-text p{
+   font-size: 17px;
+   letter-spacing: 0px;
+   line-height: 22px;
+}
+   
+/* about css end */
+
+/* Food-quality css start  */
+   
+.our-food-quality{
+   width: 100%;
+   margin: 40px 0px;
+}
+   
+.our-food-quality{
+   padding: 585px 0px;
+}
+   
+.our-food-quality .our-food-quality-text{
+   position: relative;
+   top: -80px;
+   left: 25px;
+}
+   
+.inner-food-text-h1{
+   font-size: 40px;
+}
+   
+.inner-food-text-p{
+   font-size: 18px;
+   letter-spacing: 1px;
+   line-height: 22px;
+   font-weight: 400;
+}
+   
+   
+/* Food-quality css end  */
+
+/* Enjoy food css start */
+   
+.enjoy-food{
+   width: 100%;
+   padding: 80px 0px;
+}
+   
+.inner-enjoy{
+   width: 360px;
+   padding: 15px;
+   margin-left: 30%;
+   border: 8px solid #FE9000;
+}
+   
+.inner-enjoy .inner-enjoy-h3{
+   font-size: 30px;
+   margin-top: 10px;
+   letter-spacing: 1px;
+}
+   
+.inner-enjoy .inner-enjoy-p{
+   font-size: 16px;
+   line-height: 20px;
+   font-weight: 400;
+   letter-spacing: 1px;
+}
+   
+/* Enjoy food css end */
+
+
+/* our menu css start */
+   
+.our-menu {
+   width: 100%;
+   padding: 30px 0px;
+   margin-top: 45%;
+}
+   
+.our-menu .our-menu-h1{
+   font-size: 50px;
+}
+   
+.our-menu .food-gellary-img{
+   margin: 15px 15px;
+}
+   
+.our-menu .menu-text-h1{
+   font-size: 22px;
+   font-weight: 700;
+   margin: 10px 25px;
+}
+   
+.our-menu .menu-text-p{
+   font-size: 16px;
+    font-weight: 400;
+   letter-spacing: 0px;
+   line-height: 20px;
+}
+   
+.our-menu .menu-text-h3{
+   font-size: 23px;
+   word-spacing: -8px;
+   margin: 18px 25px;
+}
+   
+/* our menu css end */
+
+/* Enjoy food meal css start  */
+   
+.enjoy-food-meal{
+   padding: 180px 0px;
+}
+   
+.enjoy-meal .enjoy-meal-h3{
+   font-size: 30px;
+   font-weight: 700;
+   margin-bottom: 15px;
+}
+   
+.enjoy-meal .enjoy-meal-p{
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 20px;
+}
+   
+.enjoy-meal{
+   width: 100%;
+   margin-left: 48%;
+}
+
+/* Enjoy food meal css end  */
+
+
+/* footer css start */
+   
+.footer{
+   padding: 40px 0px;
+}
+   
+.footer .footer-img{
+   width: 30%;
+   margin-top: 0px;
+}
+   
+.footer .footer-menu li{
+   margin-top: 20px;
+}
+   
+.footer .footer-menu li a{
+   font-size: 18px;
+   padding: 10px;
+}
+   
+.social-icon{
+   margin-top: 20px;
+}
+   
+.social-icon li a{
+   font-size: 20px;
+   margin: 0px 10px;
+   width: 50px;
+   height: 50px;
+   line-height: 54px;
+}
+   
+/* footer css end */
+   
+   
+/* css code end */    
+}
+      
+   
+/* Reaponsive media queries end */
